@@ -1,0 +1,45 @@
+.flatpickr-calendar.open,.flatpickr-innerContainer{
+    background-color: #262626;
+}
+
+
+.flatpickr-day:hover {
+    background-color: #333333;
+}
+.numInputWrapper .numInput {
+    background-color: #262626;
+    color: #f4f4f4;
+}
+
+.flatpickr-day.selected {
+    background-color: #1b64fb;
+}
+
+
+.flatpickr-day.today {
+    color: #7aaafd;
+}
+
+.flatpickr-next-month,
+.flatpickr-prev-month {
+    fill: #f4f4f4;
+    background-color: #262626;
+}
+
+.flatpickr-next-month:hover,
+.flatpickr-prev-month:hover {
+    fill: #f4f4f4;
+    background-color: #333333;
+}
+
+
+.flatpickr-weekday,
+.cur-month,
+.flatpickr-day {
+    color: #f4f4f4;
+}
+
+.nextMonthDay,
+.prevMonthDay {
+    color: #a8a8a8;
+}
