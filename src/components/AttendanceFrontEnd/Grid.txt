@@ -1,0 +1,28 @@
+  <Grid>
+    <Column lg={8} md={16} sm={16}>
+      <DatePicker datePickerType="single">
+        <DatePickerInput
+          placeholder="mm/dd/yyyy"
+          labelText="Date 1"
+          id="date-picker"
+          datePickerType="single"
+          value={this.state.date}
+          onChange={this.handleDateChange}
+        />
+      </DatePicker>
+    </Column>
+    <Column lg={8} md={16} sm={16}>
+      <DatePicker datePickerType="single">
+        <DatePickerInput
+          placeholder="mm/dd/yyyy"
+          labelText="Date 2"
+          id="date-picker-single"
+
+          size="md"
+        />
+      </DatePicker>
+    </Column>
+    <Column lg={8} md={16} sm={16}>
+      <Button onClick={handleSub}>Submit</Button>
+    </Column>
+  </Grid>
